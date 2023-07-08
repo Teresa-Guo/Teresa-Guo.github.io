@@ -1,0 +1,28 @@
+自己的版本控制：
+> 開啟Git Bash
+> git clone https://github.com/Teresa-Guo/Teresa-Guo.github.io (第一次clone時才需要)
+> cd C:\Users\dell\Teresa-Guo.github.io (cd到clone下來自己本地端資料夾的路徑)
+> 到vs code編輯code (若和別人一起編輯 因為內容別人有改動 所以要按->更改成incomming)
+> git add .
+> git commit -m '要打的message'
+> git push
+
+自己的github分享給別人做版本控制：
+> 開啟Git Bash
+> git clone https://github.com/Teresa-Guo/Teresa-Guo.github.io (第一次clone時才需要)
+> cd C:\Users\dell\Teresa-Guo.github.io (cd到clone下來自己本地端資料夾的路徑)
+> git pull
+> 到vs code編輯code (因為和別人一起編輯 因為內容別人有改動 所以要按->更改成incomming)
+> git add .
+> git commit -m '要打的message'
+> git push
+
+若要從網路上下載別人改好的版本：
+> 開啟Git Bash
+> git clone https://github.com/Brian591757/Brian591757.github.io (第一次clone時才需要)
+> cd C:\Users\dell\Brian591757.github.io (直接cd到 clone別人到自己本地端資料夾 的路徑)
+> git pull
+> 到vs code編輯code
+> git add .
+> git commit -m '要打的message'
+> git push
