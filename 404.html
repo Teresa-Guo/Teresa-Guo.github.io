@@ -6,13 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>小朋友下樓梯</title>
     <script src="https://cdn.jsdelivr.net/phaser/2.6.2/phaser.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./index.css"/>
+	<style type= "text/css" >
+	.title{font-weight:bold;font-size:20px}
+	.content{width:50%;padding:10px;border: 1px dashed blue;margin-top:20px;margin-bottom:20px}
+	.key{color:green}
+	.box{
+		width:100px;height:10px;
+		position:relative; 
+		left:400px; background-color:red }
+	.gamepage{
+		display: flex;
+		justify-content: center;
+		align-items: top;
+	}
+	body{
+		display: flex;
+		justify-content: center;	
+		margin-top:50px
+	}
+
+	</style>
 </head>
+
 <body>
-    <script src="index.js"></script>
-    <!--<div id="canvas"></div>-->
-    <div>wakuwaku</div>
+    <div id="container">
+
+        <div id="container2">
+            <div class="image"></div>
+        </div>
+
+        <div id="container1">
+            <script  src="./index.js"></script> 
+        </div>
+        
+        <div id="container3"></div>
+		
+		<dialog  id="myDialog">
+			<b>
+				<br><br><br>
+				<h2>遊戲結束！</h2>
+				<h3>兩秒後即將跳轉至問卷！</h3>
+			</b>
+		</dialog>
+    </div> 
+
 </body>
-<script>
-    document.getElementsByTagName(canvas).wrap("div");
-</script>
+
 </html>
