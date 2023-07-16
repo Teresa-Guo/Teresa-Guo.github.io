@@ -33,8 +33,7 @@ var touchLeft = false;
 var touchRight = false;
 
 function preload () {
-    //game.load.baseURL = 'https://yesfish1010.github.io/Brian591757.github.io/assets/';
-    game.load.baseURL = 'https://Brian591757.github.io/assets/';
+    game.load.baseURL = 'https://Teresa-Guo.github.io/assets/';
     //game.load.baseURL = 'https://wacamoto.github.io/NS-Shaft-Tutorial/assets/';
     game.load.crossOrigin = 'anonymous';
     game.load.spritesheet('player', 'player.png', 32, 32);
