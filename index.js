@@ -284,7 +284,7 @@ function updateTextsBoard () {
         status = 'finish';
         showMyDialog(); // 彈出 <dialog>
         setTimeout(function() {
-            window.location.href = 'https://www.surveycake.com/s/KO9Lv';
+            window.location.href = 'https://www.surveycake.com/s/ZPpRK';
         }, 2000);
     }
 
